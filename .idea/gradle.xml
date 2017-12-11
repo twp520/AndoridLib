@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/annotation-api" />
             <option value="$PROJECT_DIR$/annotation-compiler" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/basemvp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

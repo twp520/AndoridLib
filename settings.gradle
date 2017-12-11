@@ -1,1 +1,1 @@
-include ':app', ':annotation', ':annotation-compiler', ':annotation-api'
+include ':app', ':annotation', ':annotation-compiler', ':annotation-api', ':basemvp'
