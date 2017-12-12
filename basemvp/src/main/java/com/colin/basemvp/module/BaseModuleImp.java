@@ -5,4 +5,13 @@ package com.colin.basemvp.module;
  */
 
 public class BaseModuleImp implements BaseModule {
+    @Override
+    public String getCurrentTime() {
+        return "";
+    }
+
+    @Override
+    public String getToken() {
+        return "";
+    }
 }

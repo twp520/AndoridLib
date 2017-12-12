@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YbbView">
+        <attr name="arcWidth" format="dimension" />
+        <attr name="pointArc" format="integer" />
+        <attr name="pointSpacing" format="integer" />
+        <attr name="pointWidth" format="dimension" />
+        <attr name="maxAmt" format="integer" />
+        <attr name="animTime" format="integer" />
+        <attr name="amtTextSize" format="dimension" />
+        <attr name="tipTextSize" format="dimension" />
+    </declare-styleable>
+</resources>

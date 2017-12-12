@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/annotation-compiler/annotation-compiler.iml" filepath="$PROJECT_DIR$/annotation-compiler/annotation-compiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basemvp/basemvp.iml" filepath="$PROJECT_DIR$/basemvp/basemvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cusview/cusview.iml" filepath="$PROJECT_DIR$/cusview/cusview.iml" />
     </modules>
   </component>
 </project>

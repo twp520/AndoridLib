@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.colin.andoridlib.TestActivity">
+
+    <com.colin.cusview.YbbView
+        android:id="@+id/test_ybb"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:animTime="1000"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="开始动画"
+        android:layout_marginTop="20dp"
+        android:onClick="startAnim"/>
+</LinearLayout>
