@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextSpinnerView">
+        <attr name="textSpinnerTitle" format="string" />
+        <attr name="hideIcon" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TextSwitchView">
+        <attr name="textSwitchTitle" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TextEditView">
+        <attr name="textEditTitle" format="string" />
+        <attr name="textEditUnit" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TextTextView">
+        <attr name="textTextTitle" format="string" />
+        <attr name="textTextSubTitle" format="string" />
+        <attr name="hideIconRight" format="boolean" />
+        <attr name="titleColor" format="color" />
+        <attr name="subTitleColor" format="color" />
+    </declare-styleable>
+</resources>
