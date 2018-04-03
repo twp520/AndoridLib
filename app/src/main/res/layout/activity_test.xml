@@ -8,17 +8,21 @@
     android:orientation="vertical"
     tools:context="com.colin.andoridlib.TestActivity">
 
-    <com.colin.cusview.YbbView
-        android:id="@+id/test_ybb"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        app:animTime="1000"
-        android:layout_marginTop="10dp" />
+    <!--<com.colin.cusview.YbbView-->
+        <!--android:id="@+id/test_ybb"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp"-->
+        <!--app:animTime="1000"-->
+        <!--android:layout_marginTop="10dp" />-->
 
-    <Button
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:text="开始动画"
-        android:layout_marginTop="20dp"
-        android:onClick="startAnim"/>
+    <!--<Button-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="开始动画"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:onClick="startAnim"/>-->
+
+    <com.colin.cusview.CusPathView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
