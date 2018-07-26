@@ -42,7 +42,7 @@ public class EvalTabLayout extends LinearLayout implements ViewPager.OnPageChang
 
     private void init() {
         setOrientation(HORIZONTAL);
-        setPadding(ConvertUtils.dp2px(20), 0, ConvertUtils.dp2px(20), 0);
+//        setPadding(ConvertUtils.dp2px(20), 0, ConvertUtils.dp2px(20), 0);
         itemLp = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT);
     }
 
@@ -62,16 +62,16 @@ public class EvalTabLayout extends LinearLayout implements ViewPager.OnPageChang
         for (int i = 0; i < getChildCount(); i++) {
             if (mItems.get(i).hasClick()) {
                 View view = getChildAt(i);
-                view.setOnClickListener(v -> {
-                    int curIndex = indexOfChild(v);
-                    mLastSelect.unChecked();
-                    tabStep = curIndex;
-                    mItems.get(curIndex).checked();
-                    mLastSelect = mItems.get(curIndex);
-                    if (mViewPager != null) {
-                        mViewPager.setCurrentItem(mItems.get(curIndex).getMapperPageIndex()[0], true);
-                    }
-                });
+//                view.setOnClickListener(v -> {
+//                    int curIndex = indexOfChild(v);
+//                    mLastSelect.unChecked();
+//                    tabStep = curIndex;
+//                    mItems.get(curIndex).checked();
+//                    mLastSelect = mItems.get(curIndex);
+//                    if (mViewPager != null) {
+//                        mViewPager.setCurrentItem(mItems.get(curIndex).getMapperPageIndex()[0], true);
+//                    }
+//                });
             }
         }
     }

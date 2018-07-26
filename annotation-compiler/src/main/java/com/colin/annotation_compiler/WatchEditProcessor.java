@@ -26,13 +26,13 @@ import javax.tools.Diagnostic;
 
 @AutoService(Processor.class)
 public class WatchEditProcessor extends AbstractProcessor {
-    //文件工具类
+
     private Filer mFiler;
 
-    //处理元素的工具类
+
     private Elements mElementUtils;
 
-    //log工具类
+
     private Messager mMessager;
 
     //使用了注解的类的包装类的集合

@@ -56,7 +56,7 @@ public class MyListIndexBar extends View {
         //绘制文字
         mPaint.setTextSize(TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP,
                 10f, getResources().getDisplayMetrics()));
-        mPaint.setColor(ContextCompat.getColor(getContext(), R.color.font_color_secondary));
+//        mPaint.setColor(ContextCompat.getColor(getContext(), R.color.font_color_secondary));
         for (int i = 0; i < indexs.length; i++) {
             String text = indexs[i];
             int x = (int) (mCellWidth / 2f - mPaint.measureText(text) / 2f);

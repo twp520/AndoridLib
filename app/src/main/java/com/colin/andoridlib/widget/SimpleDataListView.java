@@ -41,7 +41,7 @@ public class SimpleDataListView extends LinearLayout {
         setOrientation(VERTICAL);
         childParams = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
         setShowDividers(SHOW_DIVIDER_MIDDLE);
-        setDividerDrawable(ContextCompat.getDrawable(getContext(), R.drawable.shape_linear_line));
+//        setDividerDrawable(ContextCompat.getDrawable(getContext(), R.drawable.shape_linear_line));
     }
 
     public void setAdapter(SimpleDataAdapter adapter) {
@@ -53,10 +53,10 @@ public class SimpleDataListView extends LinearLayout {
             addView(itemView, childParams);
         }
         //添加脚view
-        View footer = LayoutInflater.from(getContext()).inflate(R.layout.simple_datalist_footer,
-                null, false);
-        footer.setOnClickListener(v -> addOneItemView());
-        addView(footer, new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
+//        View footer = LayoutInflater.from(getContext()).inflate(R.layout.simple_datalist_footer,
+//                null, false);
+//        footer.setOnClickListener(v -> addOneItemView());
+//        addView(footer, new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
     }
 
     public void addOneItemView() {

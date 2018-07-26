@@ -69,6 +69,7 @@ public class YbbView extends View {
         tipTextSize = typedArray.getDimension(R.styleable.YbbView_tipTextSize, TypeValueUtil.sp2px(metrics, 12));
         numTextSize = typedArray.getDimension(R.styleable.YbbView_amtTextSize, TypeValueUtil.sp2px(metrics, 30));
         animTime = typedArray.getInteger(R.styleable.YbbView_animTime, 1000);
+        typedArray.recycle();
         init();
 
     }

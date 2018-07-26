@@ -69,7 +69,7 @@ public class WatchEditAnnotatedClass {
             }
         }
 
-        //构建类 MainActivity$$Injector
+//        构建类 MainActivity$$Injector
         TypeSpec finderClass = TypeSpec.classBuilder(bindClassName.simpleName() + "$$Injector")
                 .addModifiers(Modifier.PUBLIC)
                 .addSuperinterface(ParameterizedTypeName.get(TypeUtil.INJECTOR, TypeName.get(mClassElement.asType())))
