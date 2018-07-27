@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CusView</string>
+    <string name="guide_text">welcome</string>
 </resources>

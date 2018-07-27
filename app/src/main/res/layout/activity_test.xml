@@ -33,17 +33,35 @@
 
     <Button
         android:layout_width="match_parent"
-        android:text="开始"
+        android:layout_height="50dp"
         android:onClick="startWave"
-        android:layout_height="50dp" />
+        android:text="开始" />
 
     <!--<com.colin.cusview.WavePathView
         android:id="@+id/test_wave"
         android:layout_width="match_parent"
 
         android:layout_height="match_parent" />-->
-    <com.colin.cusview.QuadWavePathView
-        android:id="@+id/test_qwpv"
+    <!--    <com.colin.cusview.QuadWavePathView
+            android:id="@+id/test_qwpv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />-->
+    <!--<com.colin.cusview.MovePathView
+        android:id="@+id/test_mpv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent" />-->
+    <!-- <com.colin.cusview.HeartFunctionView
+         android:id="@+id/test_hfv"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" />-->
+    <com.colin.cusview.PdXXView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/test_target"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent" />
 </LinearLayout>
