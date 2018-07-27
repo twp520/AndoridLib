@@ -1,12 +1,11 @@
 package com.colin.andoridlib;
 
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.colin.cusview.GuideView;
+import com.colin.cusview.DTSView;
 import com.colin.cusview.HeartFunctionView;
 import com.colin.cusview.MovePathView;
 import com.colin.cusview.QuadWavePathView;
@@ -26,6 +25,7 @@ public class TestActivity extends AppCompatActivity {
     private HeartFunctionView hfv;
 
     private Button testTarget;
+    private DTSView dtsView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,7 @@ public class TestActivity extends AppCompatActivity {
 //        mpv = (MovePathView) findViewById(R.id.test_mpv);
 //        hfv = (HeartFunctionView) findViewById(R.id.test_hfv);
         testTarget = (Button) findViewById(R.id.test_target);
+        dtsView = (DTSView) findViewById(R.id.test_dtsv);
 
 
     }
@@ -62,13 +63,14 @@ public class TestActivity extends AppCompatActivity {
 //        qwpView.startWaveAnim();
 //        mpv.startMove();
 //        hfv.startFunction();
-        new GuideView.Builder()
+       /* new GuideView.Builder()
                 .arrowBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.guide_arrow))
                 .guideText("我是引导文字~~~~你好吗？、、\n哈哈哈")
                 .lightShapeType(GuideView.RECT)
                 .targetView(testTarget)
                 .build(this)
-                .addToActivity(this);
+                .addToActivity(this);*/
+        dtsView.startAnim();
 
     }
 

@@ -30,16 +30,16 @@ public class PdXXView extends View {
         mPaint.setColor(Color.YELLOW);
         dstBmp = makDST();
         srcBmp = makSRC();
-        porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.SRC_IN);
+        porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.DST_IN);
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         int saveLayer = canvas.saveLayer(null, null, Canvas.ALL_SAVE_FLAG);
-        canvas.drawBitmap(dstBmp, 100, 100, mPaint);
+        canvas.drawBitmap(dstBmp, 0, 0, mPaint);
         mPaint.setXfermode(porterDuffXfermode);
-        canvas.drawBitmap(srcBmp, 200, 200, mPaint);
+        canvas.drawBitmap(srcBmp, width / 2f, height / 2f, mPaint);
         canvas.restoreToCount(saveLayer);
 
     }

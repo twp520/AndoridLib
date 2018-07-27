@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:background="@color/colorAccent"
     tools:context="com.colin.andoridlib.TestActivity">
 
     <!--<com.colin.cusview.YbbView-->
@@ -54,10 +55,14 @@
          android:id="@+id/test_hfv"
          android:layout_width="match_parent"
          android:layout_height="match_parent" />-->
-    <com.colin.cusview.PdXXView
+<!--    <com.colin.cusview.PdXXView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1" />-->
+    <com.colin.cusview.DTSView
+        android:id="@+id/test_dtsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <Button
         android:id="@+id/test_target"
